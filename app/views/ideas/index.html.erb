@@ -1,5 +1,5 @@
+<%= link_to 'New Idea', new_idea_path, class: "btn custom-btn" %>
 <h1>Let's run</h1>
-
 <% @ideas.in_groups_of(3) do |group| %>
   <div class="row">
     <% group.compact.each do |idea| %>
@@ -12,4 +12,4 @@
 <% end %>
 <br>
 
-<%= link_to 'New Idea', new_idea_path, class: "btn custom-btn" %>
+
