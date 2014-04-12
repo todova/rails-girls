@@ -3,4 +3,17 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .picture-margin {margin-bottom:30px}
 .picture-margin .idea-description {color:green; font-size:15px}
-
+.custom-btn {font-size: 16px; color: #00A6F1}
+.topbar {background-color: #00A6F1}
+.nav-button {
+   color:white !important;
+   font-size: 21px
+ }
+.navbar .nav>li>a {text-shadow:none}
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+	background-color: #00A6F1;
+}
+.active a {
+	font-size: 20px;
+	color: #fff !important; 
+}
